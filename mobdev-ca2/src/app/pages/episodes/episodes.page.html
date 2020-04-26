@@ -1,12 +1,12 @@
 <ion-header>
   <ion-toolbar color="primary">
-    <ion-title> Episodes </ion-title>
+    <ion-title> Episode </ion-title>
   </ion-toolbar>
 </ion-header>
 <ion-content>
     <ion-list>
            <ion-item button detail lines="inset" *ngFor="let episode of episodes | async" (click)="openDetails(episode)">
-     <ion-icon name="skull-outline" slot="start"></ion-icon>
+    <ion-icon name="logo-youtube" slot="start"></ion-icon>
       Ep:  {{ episode?.title }}
         </ion-item>
     </ion-list>
