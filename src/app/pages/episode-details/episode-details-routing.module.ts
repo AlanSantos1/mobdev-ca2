@@ -1,13 +1,13 @@
-import { ApiService } from './../../services/api.service';
+import { ApiService } from '../../services/api.service
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { CharacterDetailsPage } from './character-details.page';
+import { EpisodeDetailsPage } from './episode-details.page';
 
 const routes: Routes = [
   {
     path: '',
-    component: CharacterDetailsPage
+    component: EpisodeDetailsPage
   }
 ];
 
@@ -15,4 +15,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class CharacterDetailsPageRoutingModule {}
+export class EpisodeDetailsPageRoutingModule {}

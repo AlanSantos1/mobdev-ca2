@@ -1,4 +1,4 @@
-import { ApiService } from './../../services/api.service';
+import { ApiService } from '../../services/api.service
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
